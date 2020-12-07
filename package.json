@@ -1,0 +1,29 @@
+{
+  "name": "backendreporte",
+  "version": "1.0.0",
+  "description": "Backend de proyecto reporte ",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/willmont21/BackendReporte.git"
+  },
+  "author": "Will",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/willmont21/BackendReporte/issues"
+  },
+  "homepage": "https://github.com/willmont21/BackendReporte#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "promise-mysql": "^4.1.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
